@@ -8,11 +8,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("24779895"))
+API_HASH = getenv("24ca02336ac39cb748e2946de19814e3")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7906941618:AAFB2F6MP4qwCLz5OjcMysIE67Pn3S8g1zk")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -20,10 +20,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("-1002178188404", None))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("6581286400", None))
 
 # Fill Queue Limit . Example - 15
 QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "10"))
@@ -48,8 +48,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamInflex")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/InflexSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ZTX_ORG")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ANIME_CHAT_GROUP_ZTX")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -71,11 +71,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("BQGWS8YANSQS1GDArMamGjpmSwtAov-spSkqf9yTKFFWwNwoD2W4NHeRC6vnIz8JFaLqUcyWbpzSVvw-jIsqZG6QAhpfPDTSrAx8yhMUgOGdfuM_aF2T3kED3AhSm3iKku_KwBxXtrpRDD1U8aMr67kVmwslHT3mZsrh7UB40j74xmCaZdUDPLPiGt1vORXxCQ9RXD4DdYxsi640SNwbuCAGBVDVX7v3pPLc4_XuKRX141YksodyS5nHU5JcVp4sLa5YILz4tRB0_MJNBaEIpC_1VEwZent95JpCOhW-UtO4zUZ8PxwY-HmMYTWweBJHjjyJnV46xn5yx0eYf-lr_GjrIwAAAAG-IuuuAA", None)
+STRING2 = getenv("BQGWS8YANSQS1GDArMamGjpmSwtAov-spSkqf9yTKFFWwNwoD2W4NHeRC6vnIz8JFaLqUcyWbpzSVvw-jIsqZG6QAhpfPDTSrAx8yhMUgOGdfuM_aF2T3kED3AhSm3iKku_KwBxXtrpRDD1U8aMr67kVmwslHT3mZsrh7UB40j74xmCaZdUDPLPiGt1vORXxCQ9RXD4DdYxsi640SNwbuCAGBVDVX7v3pPLc4_XuKRX141YksodyS5nHU5JcVp4sLa5YILz4tRB0_MJNBaEIpC_1VEwZent95JpCOhW-UtO4zUZ8PxwY-HmMYTWweBJHjjyJnV46xn5yx0eYf-lr_GjrIwAAAAG-IuuuAA", None)
+STRING3 = getenv("3BQGWS8YANSQS1GDArMamGjpmSwtAov-spSkqf9yTKFFWwNwoD2W4NHeRC6vnIz8JFaLqUcyWbpzSVvw-jIsqZG6QAhpfPDTSrAx8yhMUgOGdfuM_aF2T3kED3AhSm3iKku_KwBxXtrpRDD1U8aMr67kVmwslHT3mZsrh7UB40j74xmCaZdUDPLPiGt1vORXxCQ9RXD4DdYxsi640SNwbuCAGBVDVX7v3pPLc4_XuKRX141YksodyS5nHU5JcVp4sLa5YILz4tRB0_MJNBaEIpC_1VEwZent95JpCOhW-UtO4zUZ8PxwY-HmMYTWweBJHjjyJnV46xn5yx0eYf-lr_GjrIwAAAAG-IuuuAA", None)
+STRING4 = getenv("BQGWS8YANSQS1GDArMamGjpmSwtAov-spSkqf9yTKFFWwNwoD2W4NHeRC6vnIz8JFaLqUcyWbpzSVvw-jIsqZG6QAhpfPDTSrAx8yhMUgOGdfuM_aF2T3kED3AhSm3iKku_KwBxXtrpRDD1U8aMr67kVmwslHT3mZsrh7UB40j74xmCaZdUDPLPiGt1vORXxCQ9RXD4DdYxsi640SNwbuCAGBVDVX7v3pPLc4_XuKRX141YksodyS5nHU5JcVp4sLa5YILz4tRB0_MJNBaEIpC_1VEwZent95JpCOhW-UtO4zUZ8PxwY-HmMYTWweBJHjjyJnV46xn5yx0eYf-lr_GjrIwAAAAG-IuuuAA", None)
+STRING5 = getenv("BQGWS8YANSQS1GDArMamGjpmSwtAov-spSkqf9yTKFFWwNwoD2W4NHeRC6vnIz8JFaLqUcyWbpzSVvw-jIsqZG6QAhpfPDTSrAx8yhMUgOGdfuM_aF2T3kED3AhSm3iKku_KwBxXtrpRDD1U8aMr67kVmwslHT3mZsrh7UB40j74xmCaZdUDPLPiGt1vORXxCQ9RXD4DdYxsi640SNwbuCAGBVDVX7v3pPLc4_XuKRX141YksodyS5nHU5JcVp4sLa5YILz4tRB0_MJNBaEIpC_1VEwZent95JpCOhW-UtO4zUZ8PxwY-HmMYTWweBJHjjyJnV46xn5yx0eYf-lr_GjrIwAAAAG-IuuuAA", None)
 
 
 BANNED_USERS = filters.user()
